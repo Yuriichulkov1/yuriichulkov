@@ -6,8 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Юрій Чулков</h1>
-    <p>КТ-22</p>
-    <img src="./image.jpg" alt="image">
+    <form action="/#" method="post">
+        <div>
+            <label for="name"><b>Ім'я</b></label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email"><i>Пошта</i></label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <input type="submit" value="Відправити">
+        </div>
+    </form>
 </body>
 </html>
